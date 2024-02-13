@@ -40,6 +40,8 @@ const useWeather = () => {
 
             const data = await response.json();
 
+            console.log(data)
+
             setWeatherData({
                 ...weatherData,
                 location: data?.name,

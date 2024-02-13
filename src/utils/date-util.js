@@ -1,0 +1,1 @@
+function getFormattedDate(value, type) { }
